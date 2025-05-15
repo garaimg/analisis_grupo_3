@@ -2,5 +2,12 @@
 
 ## pasos a seguir: 
 - Crear e inicializar entorno virtual
-- Descargar dependencias con requirements.txt
+```bash
+python -m venv env
+source env/bin/activate
+```
+- Instalar dependencias con requirements.txt
+```bash
+pip install -r requirements.txt
+```
 - Ejecutar notebook
