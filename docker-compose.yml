@@ -6,6 +6,6 @@ services:
     volumes:
       - ./work:/home/jovyan/work
     ports:
-      - 8888:8888
+      - 8899:8888
     container_name: jupyter_notebook
     command: "start-notebook.sh --NotebookApp.token="

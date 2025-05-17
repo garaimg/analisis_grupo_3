@@ -50,7 +50,7 @@ Esto hará lo siguiente:
 Una vez el contenedor esté levantado, abre tu navegador y ve a:
 
 ```
-http://localhost:8888
+http://localhost:8899
 ```
 
 El token de autenticación está deshabilitado, por lo que accederás directamente al entorno.
