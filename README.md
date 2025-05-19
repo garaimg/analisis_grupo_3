@@ -4,20 +4,6 @@ Este proyecto contiene un análisis exploratorio de datos de estudiantes utiliza
 
 ---
 
-## 📁 Estructura del proyecto
-
-```
-.
-├── README.md
-├── analisis_estudiantes.ipynb
-├── docker-compose.yml
-└── jupyter
-    ├── Dockerfile
-    └── requirements.txt
-```
-
----
-
 ## 🚀 Instrucciones de uso
 
 ### 1. 🐳 Requisitos previos
@@ -34,7 +20,7 @@ Asegúrate de tener instalado:
 Abre una terminal en el directorio raíz del proyecto y ejecuta:
 
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 Esto hará lo siguiente:
@@ -62,7 +48,7 @@ El token de autenticación está deshabilitado, por lo que accederás directamen
 Presiona `Ctrl+C` en la terminal para detener el contenedor, o bien:
 
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ---
